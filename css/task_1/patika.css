@@ -1,0 +1,22 @@
+h1{
+    color: rgb(169, 8, 8);
+}
+h2{
+    color: slateblue;
+}
+body{
+    text-align: center;
+}
+h3{
+    color:salmon
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.cls1{
+    list-style-position:inside;
+}
+.cls2{
+    text-align: left;
+}
