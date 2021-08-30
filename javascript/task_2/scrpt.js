@@ -42,7 +42,7 @@ function newElement() {
   let inputValue = document.getElementById("myInput").value;
   let t = document.createTextNode(inputValue);
   li.appendChild(t);
-  if (inputValue === '') {
+  if (inputValue.trim()==="") {
     alertDOM.innerHTML=alertFunction("Listeye boş ekleme yapamazsınız!")
   } else {
     document.getElementById("myUL").appendChild(li);
