@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Yapılacaklar Listesi</title>
+</head>
+<body>
+
+    <div class="mr-1" id="alert" style="position: relative">
+        <div style="position: absolute; top: 0; right: 0">
+          </div>
+      </div>
+    <!--*****************************************-->
+    <div class="container col-md-9">
+    <div id="myDIV" class="header">
+        <img src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"class="mb-1" alt=""> 
+        <h2>Yapılacaklar Listesi</h2>
+        <input type="text" id="myInput" placeholder="Bugün ne yapacaksın?">
+        <span onclick="newElement()" class="addBtn">Ekle</span>
+      </div>
+      
+      <ul id="myUL">
+      </ul>
+    </div>
+
+    <!--*****************************************-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
+      <script src="scrpt.js"></script>
+</body>
+</html>
