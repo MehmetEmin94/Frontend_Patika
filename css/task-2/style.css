@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.c1 {
+    background-color:#EEEEEE;
+    margin-top: auto;
+}
+body{
+    text-align: center;
+}
+.c2{
+    float:left;
+    width: 33%;
+    background-color:#7EE5DA;
+    margin-right: 2px;
+}
+.c3{
+    float:left;
+    width: 33%;
+    background-color:#7EE5DA;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.c4{
+    float:left;
+    width: 33%;
+    background-color:#7EE5DA;
+    margin-right: 2px;
+}
+.c5{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+}
